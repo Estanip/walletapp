@@ -125,7 +125,7 @@ const WalletPage = () => {
         } catch (error) {
             if (error.response.status === 500) {
                 auth.logout()
-                toast.warning("Token Expirado");
+                toast.warning("Sesion Expirada");
             }
         }
     }
